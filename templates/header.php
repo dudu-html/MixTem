@@ -7,6 +7,15 @@
     <title>Mix Tem</title>
     <!-- CSS -->
     <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 <body>
 
@@ -20,13 +29,13 @@
 
             <ul class="menu">
 
-                <li> <a href="#">Início</a> </li>
+                <li> <a href="index.php">Início</a> </li>
 
-                <li> <a href="#">Produtos</a> </li>
+                <li> <a href="produtos.php">Produtos ●</a> </li>
 
-                <li> <a href="#">Sobre</a> </li>
+                <li> <a href="sobre.php">Sobre</a> </li>
 
-                <li> <a href="#">Contato</a> </li>
+                <li> <a href="contato.php">Contato</a> </li>
 
             </ul>
 

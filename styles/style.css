@@ -315,4 +315,70 @@ section {
 
 /* FOOTER */
 
+footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    margin-top: 50px;
+}
 
+footer > .content {
+    width: 100%; 
+    display: flex;
+    padding: 40px 25px;
+}
+
+footer > .content > .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer > .content > .left > a > img {
+    width: 200px;
+    opacity: 80%;
+}
+
+footer > .content > .left > p {
+    text-align: justify;
+    width: 80%;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer > .content > .right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > .content > .right > ul {
+    width: 30%;
+    list-style-type: none;
+}
+
+footer > .content > .right > ul > h3 {
+    text-transform: uppercase;
+}
+
+footer > .content > .right > ul > li {
+    margin: 20px 0;
+}
+
+footer > .content > .right > ul > li > a {
+    color: #cacaca;
+    font-size: 14px;
+}
+
+footer > .content > .right > ul > li > a:hover {
+    color: #ffff;
+}
+
+footer > .foot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
